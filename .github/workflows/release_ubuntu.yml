@@ -12,20 +12,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-#    - name: Update packages...
-#      run: sudo apt update && sudo apt upgrade
-
     - name: Installing Boost...
       run: sudo apt install -y libboost-dev libboost-filesystem-dev libboost-program-options-dev
 
-    - name: Check package
-      run: dpkg --listfiles libboost-program-options1.74-dev
-
-    - name: Find a
-      run: sudo find / -name libboost_program_options.a
-
-    - name: Find so
-      run: sudo find / -name libboost_program_options.so
+    - name: Installing Eigen3...
+      run: sudo apt install libeigen3-dev
 
     - name: Prepare to compile
       run: cmake . -B build -DBoost_INCLUDE_DIR=/usr/include
