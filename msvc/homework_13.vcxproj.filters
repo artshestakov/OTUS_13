@@ -5,6 +5,7 @@
     <ClCompile Include="..\src\AccuracyFinder.cpp" />
     <ClCompile Include="..\src\helpers.cpp" />
     <ClCompile Include="..\src\mlp_classifier.cpp" />
+    <ClCompile Include="..\src\classifier.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\AccuracyFinder.h" />
