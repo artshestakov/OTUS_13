@@ -2,5 +2,14 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\AccuracyFinder.cpp" />
+    <ClCompile Include="..\src\helpers.cpp" />
+    <ClCompile Include="..\src\mlp_classifier.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\AccuracyFinder.h" />
+    <ClInclude Include="..\src\classifier.h" />
+    <ClInclude Include="..\src\helpers.h" />
+    <ClInclude Include="..\src\mlp_classifier.h" />
   </ItemGroup>
 </Project>
