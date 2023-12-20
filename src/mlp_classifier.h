@@ -1,6 +1,10 @@
 #pragma once
 
+#ifdef WIN32
 #include <Eigen/Dense>
+#else
+#include <eigen3/Eigen/Dense>
+#endif
 
 #include "classifier.h"
 
